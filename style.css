@@ -6,7 +6,10 @@ color: #ffffff;
 background-color: black;
 font: 1em sans-serif;}
 .pictures
-{background-color: #ffffff;}
+{background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;}
 .ende
 {color: #ffffff;
 text-align: center;
