@@ -1,4 +1,27 @@
-.text{
-    font: 1em sans-serif;
+body
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.background::before {
+    content: '';
+    background-image:url(../img/deadpool-3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    top: 0px;;
+    left:0px;
+    bottom: 0px;;
+    right:0px;
+    opacity: 0.35;
+}
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    position: absolute;
     text-align: center;
 }
