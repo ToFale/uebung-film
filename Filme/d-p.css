@@ -11,7 +11,7 @@ body
     background-image:url(../img/deadpool-3.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position:auto;
     position: absolute;
     top: 0px;;
     left:0px;
